@@ -1,0 +1,333 @@
+@media only scream and(min=width: 768px) and (max-width: 991px){
+  .container
+  {
+  	width: 760px;
+  }
+
+  .main-menu-area .img-text
+  {
+  	padding: 15px;
+  	width: 44%;
+  }	
+
+  .main-menu-area .img-text p 
+  {
+  	line-height: 18px;
+  }
+
+  .footer-right
+  {
+  	width: 37%;
+  	padding: 10px;
+  }
+
+  .footer-right h1
+  {
+  	font-size: 50px;
+  }
+
+  .footer-right p
+  {
+  	line-height: 66px;
+  	font-size: 20px;
+  }
+
+}
+
+@media only screen and (max-width: 767px){
+  .container
+  {
+  	width: 300px
+  }
+
+  .logo-area
+  {
+  	padding: 15px 0;
+  }
+
+  .logo h1
+  {
+  	font-size: 40px;
+  }
+
+  .navigation
+  {
+  	width: 40%;
+  }
+  .social
+  {
+  	width: 40%;
+  }
+  .social i 
+  {
+  	margin: 9px 2px;
+  }
+
+  .img-texts
+  {
+  	left:10%;
+  	padding: 15px 0;
+  }
+
+  .img-texts h2
+  {
+  	font-size: 16px;
+  	padding: 5px 20px;
+  }
+
+   .img-texts p
+   {
+   	font-size: 10px;
+   }
+
+   .main-area
+   {
+   	padding: 10px;
+   }
+
+   .break-one img
+   {
+   	width: 100%;
+   }
+
+   .break-one .brk-text
+   {
+   	width: 100%;
+   }
+
+    .break-one .brk-text h2
+    {
+    	font-size: 25px;
+    	margin-bottom: 0px;
+    }
+
+     .break-one .brk-text ul
+     {
+        margin-left: 15px;
+     }
+
+      .break-one .brk-text ul li
+      {
+      	font-size: 18px;
+      	line-height: 30px;
+      }
+
+       .break-two
+       {
+       	width: 100%;
+       }
+
+        .break-two .brk-text ul li
+        {
+        	font-size: 18px;
+        	line-height: 30px;
+        }
+
+         .break-two .brk-text  ul li
+         {
+         	font-size: 18px;
+         	line-height: 30px;
+         }
+
+          .break-two .brk-text h2
+          {
+          	font-size: 25px;
+          	margin-bottom: 15px;
+          } 
+
+           .main-menu-area .img-area
+           {
+           	width: 100%;
+           } 
+
+           .main-menu-area .img-text
+           {
+           	padding: 0;
+           	width: 100%;
+           }
+
+           .footer-area
+           {
+           	padding: 10px;
+
+           }
+
+           .footer-left h3
+           {
+           	font-size: 30px;
+           }
+
+           .footer-left
+           {
+           	width: 100%;
+           }
+
+           .footer-right
+           {
+           	width: 100%;
+           	padding: 0px;
+           	margin-top: 20px;
+           }
+
+           .footer-right h1
+           {
+           	font-size: 48px;
+           }
+
+           .footer-right p
+           {
+           	line-height: 25px;
+           	font-size: 20px;
+           }
+}
+
+@media only screen ans(min-width: 480px) and (max-width: 767px){
+	 .container
+  {
+  	width: 460px;
+  }
+
+  .logo-area
+  {
+  	padding: 15px 0;
+  }
+
+  .logo h1
+  {
+  	font-size: 40px;
+  }
+
+  .navigation
+  {
+  	width: 40%;
+  }
+  .social
+  {
+  	width: 60%;
+  }
+  .social i 
+  {
+  	margin: 9px 2px;
+  }
+
+  .img-texts
+  {
+  	left:10%;
+  	padding: 15px 0;
+  }
+
+  .img-texts h2
+  {
+  	font-size: 16px;
+  	padding: 5px 20px;
+  }
+
+   .img-texts p
+   {
+   	font-size: 10px;
+   }
+
+   .main-area
+   {
+   	padding: 10px;
+   }
+
+   .break-one img
+   {
+   	width: 100%;
+   }
+
+   .break-one .brk-text
+   {
+   	width: 100%;
+   }
+
+    .break-one .brk-text h2
+    {
+    	font-size: 25px;
+    	margin-bottom: 0px;
+    }
+
+     .break-one .brk-text ul
+     {
+        margin-left: 15px;
+     }
+
+      .break-one .brk-text ul li
+      {
+      	font-size: 18px;
+      	line-height: 30px;
+      }
+
+       .break-two
+       {
+       	width: 100%;
+       }
+
+        .break-two .brk-text ul li
+        {
+        	font-size: 18px;
+        	line-height: 30px;
+        }
+
+         .break-two .brk-text  ul li
+         {
+         	font-size: 18px;
+         	line-height: 30px;
+         }
+
+          .break-two .brk-text h2
+          {
+          	font-size: 25px;
+          	margin-bottom: 15px;
+          } 
+
+           .main-menu-area .img-area
+           {
+           	width: 100%;
+           } 
+
+           .main-menu-area .img-text
+           {
+           	padding: 0;
+           	width: 100%;
+           }
+
+           .footer-area
+           {
+           	padding: 10px;
+
+           }
+
+           .footer-left h3
+           {
+           	font-size: 30px;
+           }
+
+           .footer-left
+           {
+           	width: 100%;
+           }
+
+           .footer-right
+           {
+           	width: 100%;
+           	padding: 0px;
+           	margin-top: 20px;
+           }
+
+           .footer-right h1
+           {
+           	font-size: 48px;
+           }
+
+           .footer-right p
+           {
+           	line-height: 25px;
+           	font-size: 20px;
+           }
+}
+}
+
+
+

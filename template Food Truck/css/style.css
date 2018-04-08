@@ -1,0 +1,350 @@
+*
+{
+	margin:0;
+	padding: 0;
+}
+
+html
+{
+	background-image:url(../img/b.jpg);
+	-webkit-background-size:cover;
+	background-size:cover;
+	background-position: center center;
+	background-attachment: fixed;  
+}
+
+.clear
+{
+	overflow: hidden;
+}
+
+.container
+{
+	width: 960px;
+	margin-left: 15%;
+	background:rgba(0,0,0,0.5);
+}
+
+h1
+{
+	font-family: 'Tangerine', cursive;
+	color:#fff;
+}
+
+h2,h3,h4,h5,h6
+{
+	font-family: 'Poiret One', cursive;
+}
+
+p
+{
+	font-family: 'Philosopher', sans-serif;
+}
+
+.slide-menu-wrapper
+{
+	overflow: hidden;
+	background:(rgba0,0,0,0.5);
+	padding: 40px 0 0 40px;
+	position: fixed;
+	top: 0;
+	left: -290px;
+	height: 100%;
+	z-index:2;
+	-webkit-transition:ease-in 0.5s;
+	-moz-transition:ease-in 0.5s;
+	-ms-transition:ease-in 0.5s;
+	-o-transition:ease-in 0.5s;
+	transition: ease-in 0.5s;
+	width: 250px;
+}
+
+.slide-menu-wrapper > ul > li > a
+{
+	display: block;
+	border-bottom: 1px solid #131313;
+	padding: 6px 4px 6px 4px;
+	color: #989898;
+	transition: 0.3s;
+	text-decoration: none;
+}
+
+.slide-menu-overlay
+{
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index:1;
+	top: 0;
+	left: 0;
+	background-color: rgba(0,0,0,0.7);
+	overflow-x:hidden;
+	overflow-y: auto;
+	text-align: center; 
+	opacity: 0;
+	transition: opacity 1s;
+}
+
+.nav-area
+{
+	background:#ffffff;
+	height: 54px;
+}
+
+.navigation
+{
+	width: 50%;
+	float: left;
+}
+
+.social
+{
+	width: 50%;
+	float: right;
+	font-size: 50px;
+}
+
+.social i 
+{
+	margin:9px 5px;
+	background:#000;
+	color: #ffffff;
+	padding: 10px;
+	border-radius: 100%;
+}
+
+.navigation i
+{
+	font-size: 20px;
+	margin-left: 15px;
+	margin-top: 10px;
+}
+
+.declaration-area
+{
+	background:#fff;
+	padding: 5px;
+}
+
+.logo-area
+{
+	background:red;
+}
+
+.logo h1
+{
+	color: #ffffff;
+	text-align: center;
+	font-size: 70px;
+}
+
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  }
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+  }
+
+.img-texts
+{
+	position: absolute;
+	text-align: center;
+	left: 28%;
+	color: #ffffff;
+	top: 30%;
+}
+
+.img-texts h2
+{
+	font-size: 38px;
+	background:rgba(0,0,0,0.7);
+	padding: 5px 20px;
+}
+
+.img-texts p
+{
+	font-size: 25px;
+	text-align: center;
+}
+
+.img-text
+{ 
+
+	text-align: center;
+	top: 20%;
+	color: #ffffff;
+	
+}
+
+.img-text h2
+{
+	font-size: 38px;
+}
+
+.img-text p
+{
+	font-size: 25px;
+	text-align: center;
+}
+
+}
+
+.main-area
+{
+	padding: 25px;
+}
+
+.main-area img
+{
+	width: 50%;
+}
+
+.break-one
+{
+	overflow: hidden;
+	margin-bottom: 25px;
+}
+
+.break-one img
+{
+	width: 50%;
+	float: left;
+	border-radius: 10px;
+}
+
+.brk-text
+{
+	width: 45%;
+	float: right;
+	color: #ffffff;
+	line-height: 40px;
+}
+
+.brk-text h2
+{
+	font-size: 35px;
+	margin-bottom: 27px;
+}
+
+.brk-text ul li
+{
+	font-size: 25px;
+
+}
+.brk-text img
+{
+	width: 50%;
+	float:right;
+}
+
+.break-two .brk-text
+{
+	width: 45%;
+	float: left;
+	color: #ffffff;
+	line-height: 40px;
+	margin-left: 25px;
+
+}
+
+.main-menu-area
+{
+	margin-top: 15px;
+	padding: 15px;
+	border:1px solid #ffffff;
+	overflow: hidden;
+}
+
+.main-menu-area .img-texts
+{
+	background:rgba(0,0,0,0.5);
+	padding: 33px;
+	color: #ffffff ;
+	width: 43px;
+	float: right;
+}
+
+.main-area .main-menu-area img
+{
+	width: 100%;
+
+}
+
+.main-area .main-menu-area h2
+{
+	margin-bottom: 7px;
+}
+
+.main-menu-area .img-texts p
+{
+	line-height: 28px;
+}
+
+.footer-area
+{
+	padding: 25px;
+	overflow: hidden;
+}
+
+.footer-top
+{
+	border:1px solid #ffffff;
+	padding: 15px;
+	overflow: hidden;
+}
+
+.footer-left
+{
+	width: 50%;
+	overflow: hidden;
+}
+
+.footer-right h1
+{
+	font-size: 85px;
+}
+
+.footer-right p
+{
+	line-height: 52px;
+	font-size: 30px;
+}
+
+.footer-bottom p
+{
+	color: #ffffff;
+	text-align: center;
+	margin-top: 30px;
+}
+
+.footer-left h3
+{
+	color: #ffffff;
+	margin-bottom: 15px;
+	font-size: 40px;
+}
