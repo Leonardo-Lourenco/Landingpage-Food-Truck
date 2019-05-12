@@ -1,4 +1,4 @@
-# Landpage Food Truck
+# Landing Page Food Truck
 
 Landpage front-end food truck,criado com js,html,css.
 
