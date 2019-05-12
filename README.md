@@ -1,3 +1,3 @@
-# Template-Food-truck
+# Lndpage-Food-Truck
 
-Template front end food truck,criado com js,html,css...
+Landpage front-end food truck,criado com js,html,css.
